@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "markets": "Markets",
+    "trading": "Trading conditions",
+    "accounts": "Accounts",
+    "regulation": "Regulation",
+    "why": "Why us?",
+    "about": "About Us"
+  },
+  "button": {
+    "login": "Log in",
+    "start": "Start trading!"
+  },
+  "hero": {
+    "title": "Expand your trading opportunities",
+    "text": "Absolute Finance provides a structured approach to global markets, combining transparent conditions, advanced tools, and professional guidance to help clients build sustainable results.",
+    "list1": "Instrument",
+    "list2": "Avg. spread, pips",
+    "title1": "XAUUSD",
+    "text1": "1.1",
+    "title2": "EURUSD",
+    "text2": "0.4",
+    "title3": "BRENT",
+    "text3": "0.3",
+    "title4": "US30",
+    "text4": "3.4",
+    "title5": "APPL",
+    "text5": "2.5"
+  },
+  "about": {
+    "list1.title": "3+",
+    "list1.text": "Million traders",
+    "list2.title": "750+",
+    "list2.text": "trading instruments",
+    "list3.title": "24/7",
+    "list3.text": "Customer support",
+    "list4.text": "Business in <span>150+</span> countries",
+    "list5.text": "Superior trading conditions"
+  },
+  "why": {
+    "title": "Why join Absolute Finance?",
+    "list1.title": "Quick access to funds",
+    "list1.text": "Withdrawals are processed efficiently, giving clients reliable access to their money at any time.",
+    "list2.title": "Fast trade execution",
+    "list2.text": "Orders are executed within fractions of a second, ensuring speed and consistency in market operations.",
+    "list3.title": "Competitive spreads",
+    "list3.text": "Absolute Finance provides stable trading conditions with spreads starting from 0 pips, supporting cost-effective execution.",
+    "list4.title": "Reliable security standards",
+    "list4.text": "Absolute Finance applies advanced data protection measures, encrypted transactions, and strict compliance controls to safeguard client accounts and trading operations.",
+    "list5.title": "Broad asset coverage",
+    "list5.text": "Trade across forex, indices, commodities, shares, and cryptocurrencies through a single platform.",
+    "list6.title": "Swap-free options",
+    "list6.text": "All clients can trade without overnight charges, allowing greater flexibility in managing positions."
+  },
+  "markets": {
+    "title": "Global markets at your fingertips",
+    "list1.title": "Commodities CFDs",
+    "list1.number": "16",
+    "list2.title": "Stocks CFDs",
+    "list2.number": "200+",
+    "list3.title": "Crypto CFDs",
+    "list3.number": "25",
+    "list4.title": "Forex CFDs",
+    "list4.number": "42",
+    "product": "products"
+  },
+  "info": {
+    "list1.title": "Competitive spreads on currencies",
+    "list1.text": "Absolute Finance provides access to major and minor currency pairs with some of the lowest spreads in the market. On EUR/USD, the average spread begins from 0.1 pips, making trading conditions cost-efficient and transparent for clients.",
+    "list2.title": "Swap rates",
+    "list2.text": "Absolute Finance offers competitive swap conditions across a broad range of instruments. These rates allow traders to manage overnight positions more effectively, either reducing holding costs or supporting potential earnings, depending on the chosen strategy.",
+    "list3.title": "Margin requirements",
+    "list3.text": "Absolute Finance applies transparent margin requirements across all instruments. Clear margin rules allow traders to manage leverage effectively, maintain adequate account balances, and control exposure to market risks."
+  },
+  "accounts": {
+    "title": "Accounts thats fits any trader",
+    "deposit": "Minimum Deposit",
+    "list1.title": "Bronze account",
+    "list1.price": "$350",
+    "list1.text1": "Ideal for beginners or traders who want to start with a smaller capital.",
+    "list1.text2": "Access to a wide range of trading instruments.",
+    "list2.title": "Silver account",
+    "list2.price": "$550+",
+    "list2.text1": "Designed for traders looking for enhanced features and capabilities.",
+    "list2.text2": "Additional trading tools and indicators for advanced analysis.",
+    "list3.title": "Gold account",
+    "list3.price": "$1500+",
+    "list3.text1": "Suitable for experienced traders who require more advanced features.",
+    "list3.text2": "Premium trading tools and indicators."
+  },
+  "trade": {
+    "title": "Trade with top broker",
+    "list1.title": "5+",
+    "list1.text": "Million traders",
+    "list2.title": "165+",
+    "list2.text": "Countries covered",
+    "list3.title": "15+",
+    "list3.text": "Awards in industry",
+    "list4.text": "Licensed by FSA"
+  },
+  "client": {
+    "title": "Clients about us",
+    "list1.text": "I’ve been working with Absolute Finance for several months and the conditions have proven reliable. Withdrawals are processed quickly, spreads remain tight, and the platform doesn’t freeze during volatile market hours. The support team is responsive and professional.",
+    "list1.name": "James Turner",
+    "list1.country": "United Kingdom",
+    "list1.rating": "4.6",
+    "list2.text": "Absolute Finance propose une expérience de trading claire et efficace. Les transactions sont exécutées rapidement, l’accès aux fonds est simple et les actifs disponibles couvrent de nombreux marchés. L’absence de frais overnight est également un atout important pour ma stratégie.",
+    "list2.name": "Sophie Moreau",
+    "list2.country": "France",
+    "list2.rating": "5",
+    "list3.text": "Con Absolute Finance mi trovo bene per la trasparenza delle condizioni e la qualità del servizio. L’app mobile funziona senza problemi, permettendo di seguire i mercati in tempo reale. Buona scelta per chi cerca stabilità e strumenti pratici per il trading quotidiano.",
+    "list3.name": "Giovanni Ricci",
+    "list3.country": "Italy",
+    "list3.rating": "4.8"
+  },
+  "move": {
+    "title": "Move towards smarter trading",
+    "text": "Begin your journey with Absolute Finance — a global broker offering competitive spreads, fast and reliable execution, and professional client support."
+  },
+  "footer": {
+    "title": "Absolute Finance",
+    "nav.client": "Client Agreement",
+    "nav.policy": "AML Policy",
+    "nav.privacy": "Privacy Policy",
+    "nav.address.title": "ADDRESS",
+    "nav.address.text": "Stampfenbachstrasse, Zürich Caruso St John Architects",
+    "nav.code.title": "LEI CODE",
+    "nav.code.text": "CHE-104.067.038",
+    "nav.mail.title": "MAIL",
+    "nav.mail.text": "support@SynergyLimited.com",
+    "nav.phone.title": "PHONE",
+    "nav.phone.text": "+11992929299",
+    "legal.title": "Legal Information:",
+    "legal.text": "Absolute Finance Technologies (PTY) Ltd, registration number ______, is registered in Australia. Payment services are provided through authorized partners in compliance with financial and anti-money laundering standards.",
+    "risk.title": "Risk Warning:",
+    "risk.text1": "Trading leveraged financial instruments such as forex and CFDs carries a significant level of risk and may not be suitable for all investors. You should carefully consider whether you understand how these products work and whether you can afford to take the high risk of losing your capital. Losses may exceed your initial deposit, so only risk money you can afford to lose.",
+    "risk.text2": "CFDs are complex instruments, and a substantial proportion of retail investor accounts lose money when trading them. Before trading with Absolute Finance, please review the full Risk Disclosure Statement and seek independent advice if needed to ensure you are fully aware of potential risks."
+  }
+}
