@@ -1,0 +1,152 @@
+@import "../../../styles/variables";
+
+.accounts {
+  margin: 140px 0;
+  overflow: hidden;
+
+  @media screen and (max-width: 767px) {
+    margin: 80px 0;
+  }
+
+  &Title {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  &Content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      background: #EEECEA;
+      box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    &Item {
+
+      @media screen and (max-width: 767px) {
+        background: #EEECEA;
+        box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        padding: 10px;
+      }
+
+      &Bg {
+        background: #FFFFFF;
+        padding: 40px 26px 34px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+        border-radius: 12px;
+        transition: background 0.3s ease;
+
+        @media screen and (max-width: 767px) {
+          padding: 20px;
+        }
+
+        &:hover {
+
+          @media screen and (min-width: 768px) {
+            background: linear-gradient(259.7deg, #FFD7A1 0%, #FDC578 101.22%);
+            box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+            .accountsContentItemTop {
+              background: rgba(255, 255, 255, 0.2);
+              border: 1px solid #FFFFFF;
+              box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+            }
+          }
+        }
+      }
+
+      &Top {
+        padding: 12px 20px;
+        border: 1px solid #EEECEA;
+        filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.08));
+        border-radius: 12px;
+        transition: background 0.3s ease;
+      }
+
+      &Title {
+        font: 16px/22px $fontNotoSans;
+        font-weight: 500;
+        color: #060612;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 8px;
+
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 10px;
+        }
+      }
+
+      &Price {
+        font: 40px/48px $fontNotoSans;
+        font-weight: 500;
+        color: #FF6320;
+        margin-right: 12px;
+
+        @media screen and (max-width: 767px) {
+          font-size: 36px;
+          line-height: 43px;
+          margin-right: 10px;
+        }
+      }
+
+      &Deposit {
+        font: 16px/24px $fontInter;
+        font-weight: 400;
+        color: #B9AFA5;
+        margin-right: 12px;
+
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+
+      &Btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    ul {
+      font: 16px/24px $fontInter;
+      font-weight: 400;
+      color: rgba(0, 0, 0, .8);
+      padding-left: 20px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      li {
+        min-height: 48px;
+
+        &:not(:last-child) {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+
+  .flexCenter {
+    display: flex;
+    align-items: flex-end;
+  }
+}

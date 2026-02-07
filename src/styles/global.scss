@@ -1,0 +1,101 @@
+@import "./fonts";
+@import "./variables.scss";
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontInter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background: #F5F4F3;
+  margin-bottom: 0;
+  height: auto;
+
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+*,
+*:hover,
+*:active,
+*:focus{
+  outline: 0;
+}
+
+select {
+  -webkit-appearance: none;
+}
+
+.main {
+  position: relative;
+  flex: 1 0 auto;
+  background: #F5F4F3;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: all .3s;
+  -webkit-tap-highlight-color: transparent
+}
+
+.title {
+  font: 48px/62px $fontInter;
+  font-weight: 600;
+  color: #060612;
+  margin-bottom: 40px;
+  margin-top: 0;
+
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+}
+
+.title--center {
+  text-align: center;
+}
+
+.client .swiper-slide {
+  opacity: .3;
+}
+
+.client .swiper-slide-active {
+  opacity: 1;
+}
+

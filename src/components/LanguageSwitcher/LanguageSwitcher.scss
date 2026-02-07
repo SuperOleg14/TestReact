@@ -1,0 +1,66 @@
+@import "../../styles/variables";
+
+.lang {
+  position: relative;
+  display: inline-block;
+  font-family: $fontInter;
+
+  .lang__current {
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+    font: 14px/20px $fontInter;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    img {
+      margin-left: 7px;
+    }
+
+    &:hover {
+      border-color: #FF6320;
+    }
+
+    .lang__arrow {
+      width: 10px;
+      height: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    .open {
+      transform: rotate(180deg);
+    }
+  }
+
+  .lang__dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    min-width: 60px;
+    overflow: hidden;
+    z-index: 999;
+
+    button {
+      padding: 8px 12px;
+      background: none;
+      border: none;
+      text-align: left;
+      cursor: pointer;
+      font-weight: 500;
+      color: #060612;
+      transition: background 0.2s;
+
+      &:hover {
+        background: #FF6320;
+      }
+    }
+  }
+}

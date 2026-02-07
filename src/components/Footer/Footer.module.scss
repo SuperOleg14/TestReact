@@ -1,0 +1,163 @@
+@import "../../styles/variables";
+
+.footer {
+  overflow: hidden;
+
+  &Content {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 60px;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 767px) {
+      padding: 40px 20px;
+    }
+
+    &Top {
+
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+      }
+
+      &Logo {
+        font: 24px/31px $fontNotoSans;
+        font-weight: 500;
+        color: #060612;
+
+        @media screen and (max-width: 767px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        span {
+
+          @media screen and (max-width: 767px) {
+            display: none;
+          }
+        }
+
+        img {
+          display: block;
+          max-width: 36px;
+          margin-bottom: 20px;
+
+          @media screen and (max-width: 767px) {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      &Nav {
+
+        @media screen and (max-width: 767px) {
+          margin: 40px 0;
+        }
+
+        a {
+          display: block;
+          font: 14px/17px $fontInter;
+          font-weight: 500;
+          color: #000000;
+          transition: all .3s;
+
+          @media screen and (max-width: 767px) {
+            text-align: center;
+          }
+
+          &:hover {
+            color: #FF6320;
+          }
+
+          &:not(:last-child) {
+            margin-bottom: 20px;
+
+            @media screen and (max-width: 767px) {
+              margin-bottom: 12px;
+            }
+          }
+        }
+      }
+
+      &Details {
+
+        &Item {
+          display: flex;
+
+          &:not(:last-child) {
+            margin-bottom: 20px;
+          }
+
+          &Title {
+            min-width: 65px;
+            font: 14px/17px $fontInter;
+            font-weight: 400;
+            color: rgba(0, 0, 0, .7);
+            text-transform: uppercase;
+            margin-right: 20px;
+          }
+
+          &Text {
+            max-width: 245px;
+            font: 14px/21px $fontInter;
+            font-weight: 400;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+
+  &Map {
+    border-radius: 16px;
+    margin: 60px 0;
+    overflow: hidden;
+
+    @media screen and (max-width: 767px) {
+      margin: 40px 0;
+    }
+  }
+
+  &Info {
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+
+    &Item {
+
+      @media screen and (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+
+      &Title {
+        font: 14px/20px $fontInter;
+        font-weight: 500;
+        color: #000000;
+        margin-bottom: 12px;
+
+        @media screen and (min-width: 768px) {
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+
+      &Text {
+        font: 14px/20px $fontInter;
+        font-weight: 300;
+        color: rgba(0, 0, 0, .7);
+
+        @media screen and (min-width: 768px) {
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}

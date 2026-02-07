@@ -1,0 +1,239 @@
+@import "../../../styles/variables";
+
+.hero {
+  position: relative;
+  margin-bottom: 100px;
+  overflow: hidden;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 80px;
+  }
+
+  &Content {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    @media screen and (min-width: 768px) {
+      min-height: 725px;
+      background: linear-gradient(259.7deg, #FDC578 0%, #FFD7A1 101.22%);
+      box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 575px;
+        height: 575px;
+        left: -309px;
+        top: 166px;
+        background: #FF6320;
+        filter: blur(300px);
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 575px;
+        height: 575px;
+        left: 1136px;
+        top: 135px;
+        background: #FF6320;
+        filter: blur(300px);
+      }
+    }
+
+    &Top {
+      min-height: 725px;
+      position: relative;
+      height: 100%;
+      padding-top: 80px;
+      padding-left: 80px;
+      overflow: hidden;
+
+      @media screen and (max-width: 767px) {
+        min-height: 700px;
+        background: linear-gradient(259.7deg, #FDC578 0%, #FFD7A1 101.22%);
+        padding: 40px 20px;
+        box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+
+        &:before {
+          content: "";
+          position: absolute;
+          width: 575px;
+          height: 575px;
+          left: -309px;
+          top: 420px;
+          background: #FF6320;
+          filter: blur(300px);
+
+        }
+      }
+    }
+
+    &Title {
+      position: relative;
+      max-width: 700px;
+      font: 64px/83px $fontNotoSans;
+      font-weight: 500;
+      color: #060612;
+      margin-top: 0;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 767px) {
+        font-size: 32px;
+        line-height: 42px;
+      }
+    }
+
+    &Text {
+      position: relative;
+      max-width: 510px;
+      font: 16px/24px $fontNotoSans;
+      font-weight: 500;
+      color: rgba(0, 0, 0, .7);
+      margin-bottom: 40px;
+      z-index: 1;
+
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+
+    &Bg {
+      max-width: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+
+      @media screen and (min-width: 768px) {
+        max-width: 335px;
+        height: 100%;
+        right: 65px;
+        z-index: -1;
+      }
+
+      img {
+        border-radius: 16px;
+
+        @media screen and (min-width: 768px) {
+          height: 100%;
+        }
+      }
+    }
+
+    .ellipseWrapper1 {
+      position: absolute;
+      top: -405px;
+      right: -315px;
+      width: 100%;
+      max-width: 700px;
+      z-index: 1;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    .ellipseWrapper2 {
+      position: absolute;
+      bottom: -410px;
+      right: -7%;
+      width: 100%;
+      max-width: 800px;
+      z-index: -2;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    &Bottom {
+
+      @media screen and (min-width: 768px) {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+      }
+
+    }
+
+    &Position {
+      position: relative;
+      z-index: 11;
+    }
+  }
+
+  .table {
+    width: 100%;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+    padding: 20px 80px;
+
+    @media screen and (max-width: 767px) {
+      padding: 0;
+      margin-top: 40px;
+    }
+
+    &Head {
+      width: 100%;
+      max-width: 120px;
+      font: 14px/21px $fontInter;
+      font-weight: 300;
+      color: rgba(0, 0, 0, .7);
+
+      &:first-child {
+
+        @media screen and (max-width: 767px) {
+          text-align: left;
+        }
+      }
+    }
+
+    &Title {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      &Photo {
+        width: 21px;
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+
+        img {
+          width: initial;
+        }
+      }
+    }
+
+    &Text, &Title {
+      width: 100%;
+      max-width: 120px;
+      font: 14px/21px $fontInter;
+      font-weight: 400;
+      color: rgba(0, 0, 0, .7);
+      text-align: center;
+    }
+  }
+
+  .flexCenter {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+      justify-content: center;
+    }
+
+    &:first-child {
+      margin-bottom: 11px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

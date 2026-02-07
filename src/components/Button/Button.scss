@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.btn {
+  width: fit-content;
+  position: relative;
+  display: block;
+  align-items: center;
+  font: 14px/16px $fontRoboto;
+  font-weight: 400;
+  padding: 9px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease;
+  z-index: 111;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &--primary {
+    background: #060612;
+    color: white;
+  }
+
+  &--content{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 32px;
+    background: #060612;
+    color: white;
+  }
+
+  &--secondary {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 32px;
+    background: #FF6320;
+    color: white;
+  }
+
+  &__icon {
+    width: 16px;
+  }
+}
