@@ -9,7 +9,7 @@ import './styles/global.scss';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <HelmetProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/TestReact">
                 <App />
             </BrowserRouter>
         </HelmetProvider>
